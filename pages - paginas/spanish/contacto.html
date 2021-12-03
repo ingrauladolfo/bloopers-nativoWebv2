@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloopers - Website</title>
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <!-- Fontawesome Scripts -->
+    <script src="https://kit.fontawesome.com/997ed15eaf.js" crossorigin="anonymous"></script>
+    <!-- CSS principal -->
+    <link href="../../assets/css/contacto.css" rel="stylesheet">
+
+    <!-- Poppin's font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <a class="navbar-brand d-flex justify-content-start" href="../../index.html" >
+            <img src="../../assets/img/navbar/OJOS LOGO BLLOPERS CABEZAL.png" class="img-fluid" width="100" height="80" alt="Logo bloopers cabezal"
+                loading="lazy">
+        </a>
+        <center>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="historia.html" class="nav-link mr-md-5 mr-3">
+                        <img src="../../assets/img/navbar/HISTORIA.png" class="img-fluid" width="100" height="80" alt="Logo historia" loading="lazy">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contenidos.html" class="nav-link mr-md-5 mr-3">
+                        <img src="../../assets/img/navbar/CONTENIDOS.png" class="img-fluid" width="100" height="80" alt="Logo contenidos" loading="lazy">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="personajes.html" class="nav-link mr-md-5 mr-3">
+                        <img src="../../assets/img/navbar/PERSONAJES.png" class="img-fluid" width="100" height="80" alt="Logo personajes" loading="lazy">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="noticias.html" class="nav-link mr-md-5 mr-3">
+                        <img src="../../assets/img/navbar/NOTICIAS.png" class="img-fluid" width="100" height="80" alt="Logo noticias" loading="lazy">
+                    </a>
+                </li>
+
+                <li class="nav-item mr-md-5 mr-3">
+                    <a href="contacto.html" class="nav-link mr-md-5 mr-3">
+                        <img src="../../assets/img/navbar/CONTACTO.png" class="img-fluid" width="100" height="80" alt="Logo contacto" loading="lazy">
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../../assets/img/navbar/ICONO INGLES.png" class="img-fluid" width="50" height="80" alt="Logo idioma" loading="lazy">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Español</a>
+                        <a class="dropdown-item" href="#">Inglés</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+        </center>
+    </nav>
+    <div class="noticia">
+        <center><img src="../../assets/img/contacto-contact/ojos-azul.png"  class="img-fluid mt-4 pt-3" width="500" height="100" alt=""></center>
+    </div>
+    <header class="contact">
+        <div class="row mx-auto">
+
+            <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form ">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required"
+                            data-msg="Please write something for us" placeholder="Consulta"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+            </div>
+            <div class="col-lg-6 mt-4 pt-4">
+                <!-- Footer Elements -->
+                <div class="container">
+                    <center>
+                        <!-- Grid row-->
+                        <div class="row mx-auto justify-content-center mr-auto">
+                             <!-- Grid column -->
+                             <div class="col-md-12 py-5">
+                                <div class="mb-5 flex-center">
+                                    <center>
+                                        <img src="../../assets/img/navbar/OJOS LOGO BLLOPERS CABEZAL.png" class="img-fluid" width="400" height="80" alt="Logo bloopers cabezal"
+                                            loading="lazy">
+                                    </center>                    
+                                </div>
+                                <div class="mb-5 flex-center">
+
+                                    <!-- Facebook -->
+                                    <a class="fb-ic">
+                                        <img src="../../assets/img/contacto-contact/facebook.png"
+                                            class="mr-md-5 mr-3" width="30" height="30" alt="">
+                                    </a>
+                                    <!-- Instagram -->
+                                    <a class="tw-ic">
+                                        <img src="../../assets/img/contacto-contact/instagram.png"
+                                            class="mr-md-5 mr-3" width="30" height="30" alt="">
+                                    </a>
+                                    <!-- Twiiter-->
+                                    <a class="gplus-ic">
+                                        <img src="../../assets/img/contacto-contact/twitter.png" class="mr-md-5 mr-3"
+                                            width="30" height="30" alt="">
+                                    </a>
+                                    <!--Youtube -->
+                                    <a class="li-ic">
+                                        <img src="../../assets/img/contacto-contact/youtube.png" class="mr-md-5 mr-3"
+                                            width="80" height="30" alt="">
+                                    </a>
+                                    <!--Tik Tok-->
+                                    <a class="ins-ic">
+                                        <img src="../../assets/img/contacto-contact/tiktok.png" class="mr-md-5 mr-3"
+                                            width="30" height="30" alt="">
+                                    </a>
+                                </div>
+                                <div class="mb-5 flex-center">
+                                    <center><img src="../../assets/img/inicio-home/DESENLACE LOGO PIE.png" align="center" class="img-fluid mt-4 pt-3" width="100" height="100" alt=""></center>
+                                    <p class="font-weight-bolder text-black">Desenlace Films</p>
+                                <p class="font-weight-bolder text-black">Ciudad de México, México</p>
+                                <p class="font-weight-bolder text-black">Correo: contacto@bloooperstiteres.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Grid row-->
+                    </center>
+
+                </div>
+                <!-- Footer Elements -->
+            </div>
+
+        </div>
+    </header>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center" style="color:black; text-decoration: none; font-size:15px;">© 2014
+            Copyright:
+
+            <a href="#" style="color:black; text-decoration: none; font-size:15px;"> All Rights Reserved</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>

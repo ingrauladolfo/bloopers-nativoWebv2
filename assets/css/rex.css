@@ -1,0 +1,1403 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../font/Poppins-Regular.otf") format('opentype');
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 100px){
+    .personajes{
+        width: 100%;
+        height: 1100px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: -25px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer a .fb-ic{
+        margin-left: -25px;
+    }
+    footer a .tw-ic{
+        margin-left: 0px;
+    }
+    footer a .gplus-ic{
+        margin-left: -5px;
+    }
+    footer a .li-ic{
+        margin-left: 0px;
+    }
+    footer a .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width:280px){
+    .personajes{
+        width: 100%;
+        height: 1150px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width:280px){
+    .personajes{
+        width: 100%;
+        height: 1150px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 300px){
+    .personajes{
+        width: 100%;
+        height: 1050px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 360px){
+    .personajes{
+        width: 100%;
+        height: 1050px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 50px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 400px){
+    .personajes{
+        width: 100%;
+        height: 900px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 50px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 540px){
+    .personajes{
+        width: 100%;
+        height: 800px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 600px){
+    .personajes{
+        width: 100%;
+        height: 800px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+@media(min-width: 700px){
+    .personajes{
+        width: 100%;
+        height: 800px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1024px){
+    .personajes{
+        width: 100%;
+        height: 800px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .texto{
+        font-size: 22px;
+        flex: 1;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1200px){
+    .personajes{
+        width: 100%;
+        height: 800px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .texto{
+        font-size: 22px;
+        flex: 1;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}
+
+@media(min-width: 1300px){
+    .personajes{
+        width: 100%;
+        height: 550px;
+        background: #f6e344;
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+    ul li a {
+        background: #ffffff !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ffffff !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ffffff !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .texto{
+        font-size: 22px;
+        flex: 1;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+
+    .personajes-img .fb-ic{
+        margin-left: 100px;
+    }
+    .personajes-img .tw-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .gplus-ic{
+        margin-left: -5px;
+    }
+    .personajes-img .li-ic{
+        margin-left: 0px;
+    }
+    .personajes-img .ins-ic{
+        margin-left: -10px;
+    }
+    .personajes-img .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    .personajes-img .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    .personajes-img .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .fb-ic{
+        margin-left: -25px;
+    }
+    footer .tw-ic{
+        margin-left: 0px;
+    }
+    footer .gplus-ic{
+        margin-left: -5px;
+    }
+    footer .li-ic{
+        margin-left: 0px;
+    }
+    footer .ins-ic{
+        margin-left: -10px;
+    }
+    footer .fb-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .tw-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .gplus-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .li-ic img{
+        width: 50px;
+        height: 30px;
+    }
+    footer .ins-ic img{
+        width: 30px;
+        height: 30px;
+    }
+    footer .row{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -300px;
+        font-size: 19px;
+    }
+}

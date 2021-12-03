@@ -1,0 +1,1 @@
+Este repositorio contiene el rediseño de la página de [Bloopers](https://ricanremo.com/), desarrollada en HTML puro, perteneciente a la empresa [Desenlace Films](http://desenlacefilms.com/), para la empresa [Tatich Studio](http://www.tatichstudio.com/)

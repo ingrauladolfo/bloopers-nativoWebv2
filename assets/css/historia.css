@@ -1,0 +1,1026 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../font/Poppins-Regular.otf") format('opentype');
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 100px){
+    .historia{
+        width: 100%;
+        height: 100px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 540px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 540px;
+        margin-right:  50px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 540px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 540px;
+        margin-right:  50px;
+        align-items: center;
+    }
+}
+
+@media(min-width:280px){
+    .historia{
+        width: 100%;
+        height: 110px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .page-footer .footer-copyright{
+        margin-top: -50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 560px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 560px;
+        margin-right:  50px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 560px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 560px;
+        margin-right:  50px;
+        align-items: center;
+    }
+}
+@media(min-width:320px){
+    .historia{
+        width: 100%;
+        height: 110px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .page-footer .footer-copyright{
+        margin-top: -50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 360px){
+    .historia{
+        width: 100%;
+        height: 120px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .page-footer .footer-copyright{
+        margin-top: -50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 10px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 530px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 400px){
+    .historia{
+        width: 100%;
+        height: 145px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 540px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 30px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 600px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 700px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 700px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 620px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 620px;
+        margin-right:  10px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 620px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 620px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+@media (min-width: 1024px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-right:  0px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 800px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ 
+        background-color: purple; 
+    } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 600px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 600px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 600px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 100px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 600px;
+        margin-right: 50px;
+        align-items: center;
+    }
+}
+@media (min-width: 1300px){
+    .historia{
+        width: 100%;
+        height: 150px;
+        background: #ce009f;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .historia-img{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: justify;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .carousel-indicators .active{ background-color: purple; } 
+    .carousel-indicators .active:hover{ background-color: purple; } 
+    .carousel-control-prev{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 450px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 450px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .carousel-control-prev:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 450px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .carousel-control-next:hover{
+        background-image: none; 
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; 
+        margin-top: 450px;
+        margin-right: 50px;
+        align-items: center;
+    }
+}

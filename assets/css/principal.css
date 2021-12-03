@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    src: url("../font/Poppins-Bold.otf") format('opentype');
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media(min-width: 100px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+        background: #1d9add;
+        background-size: contain;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width:280px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 360px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 400px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 540px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 600px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 600px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 700px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 600px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: -50px;
+        font-size: 50px;
+    }
+}
+@media (min-width: 1024px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 1100px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 1200px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 1100px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 1300px){
+    .bg-light {
+        background: white !important;
+    }
+    ul li a {
+        background: white !important;
+    }
+    ul li a:hover {
+        background: white !important;
+    }
+    .dropdown-menu {
+        background: white !important;
+        border: none;
+    }
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #1d9add;
+        background-size: cover;
+        position: relative;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .footer-copyright{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
